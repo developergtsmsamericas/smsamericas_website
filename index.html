@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta content="viewport" >
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	
+	<title>SMS AMERICAS</title>
+</head>
+
+<body>
+
+<ul id="menu">
+	<div id="logo"><img src="pics/logo2.png" alt="smsamericas" /></div>
+<div id="menumenu">
+	<li data-menuanchor="section3" ><a href="#section3">CONTACTENOS</a></li>
+    <li data-menuanchor="section2" ><a href="#section2">VENTAJAS</a></li>
+    <li data-menuanchor="section1" ><a href="#section1">NOSOTROS</a></li>
+    <li data-menuanchor="section0" ><a href="#section0">INICIO</a></li>
+	
+	
+	</div>
+</ul>
+
+
+	<div id="fullPage">
+	
+    
+    
+	<!-- SECTION 0 (INICIO) -->
+		<div class="section" id="inicio">
+		  
+        
+			<div class="banner-portada">
+			  
+<div id="invitacion">
+  <p class="h3">LATIN AMERICAN LEADERS IN MOBILE ENTERTAIMENT</p>
+  <p>SMS Americas es un proveedor de servicios de valor agregado para telefonía celular especializado en entretenimiento móvil.  </p>
+  <p>Con presencia en Centro y Sur América donde diariamente operan sobre nuestra plataforma un promedio de 100 promociones </p>
+</div>
+          </div></div>
+            
+		
+		
+
+	<!-- SECTION 1 (NOSOTROS) -->
+		<div class="section" id="nosotros">
+			
+			<div class="banner100">
+			  <p>SMS Americas es un proveedor de servicios de valor agregado para telefonía celular especializado en entretenimiento móvil.</p>
+              <p class="h2">Con presencia en Centro y Sur América donde diariamente operan sobre nuestra plataforma un promedio de 100 promociones </p>
+			</div>
+			<p>&nbsp;</p>
+
+		</div>
+		
+
+	<!-- SECTION 2 (VENTAJAS) -->
+		<div class="section" id="ventajas">
+			<div class="slide">
+				<div class="col40">
+				  <p class="h3">ÁREA DE NEGOCIOS </p>
+	      			<p class="h4">- Promociones y servicios premium (PSMS): Suscripciones, súper concursos, TV Chats y votaciones.</p>
+	      			<p class="h4">- Contenido exclusivo para telefonía móvil: Ringtones, imágenes, videos y juegos.</p>
+	      			<p class="h4">- Mercado móvil.</p>
+			        <p class="h4">- Comunidades móviles.</p>
+	        		<p class="h4">- SMS Corporativo.</p>
+    			</div>
+				<div class="col60"><img src="pics/apps2.png" width="565" height="511" alt="apps"></div>
+    		</div>
+	
+			<div class="slide">
+				<div class="col100"><span class="h3">VENTAJAS COMPETITIVAS</span></div>
+				<div class="col60">
+				  <p class="h4">CONTENIDO: 
+			      Exclusivo de gran actualidad en la industria de la televisión, cine, música, deportes y juegos interactivos. </p>
+					<p class="h4">CONEXIÓN:
+        			Conexiones directas con más de 20 operadoras de telefonía en América Latina.</p>
+                    
+                    
+	      			<p class="h4">EXPERIENCIA: Equipo de ejecutivos con más de 20 años de experiencia en la industria de las telecomunicaciones, la mercadotecnia y medios.</p>
+			        <p class="h4">PRESENCIA: Equipo de ejecutivos con más de 20 años de experiencia en la industria de las telecomunicaciones, la mercadotecnia y medios.        		</p>
+				</div>
+				<div class="col40">
+				  <p class="h4">RELACIONES: Estrechas relaciones con los medios de comunicación más importantes en cada país donde operamos, abriendo puerta para lograr una mayor exposición y cobertura en la región.</p>
+				  <p class="h4">TECNOLOGÍA: Plataforma propia operando con sistemas y aplicaciones de fácil y rápida integración</p>
+			  </div>
+			</div>
+		</div>
+
+	
+	<!-- SECTION 3 (CONTACTENOS) -->
+		<div class="section" id="contactenos">
+			
+			<div class="col50">
+			  <p class="h3">CONTACTENOS</p>
+		  </div>
+			<div class="col50">
+	      		<div class="contacaja">
+	        		<div class="icono"><span class="h4"><img src="pics/mail.png" width="42" height="31" alt="mail" /></span></div>
+	      				<span class="h4">Ana Paula Faisal</span>
+	      				<span class="h4">apfasisal@smsamericas.tv</span>      
+				</div>
+	      		<div class="contacaja">
+	    			<div class="icono"><span class="h4"><img src="pics/dir.png" width="41" height="43" alt="sms" /></span></div>
+						<span class="h4">SMS Americas, LLC</span>
+	      				<span class="h4">1521 Alton Road, No. 737</span>      
+	      				<span class="h4">Miami Beach, Florida 33139</span>      
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easings.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+   	<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+    
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			//$("#banner-portada").backstretch("pics/header4.jpg");
+			
+				console.log("inicio");
+			
+				//resize();
+			
+			/*
+				$(window).resize(function(){
+					resize();
+				});
+				*/
+				function resize(){
+					/*var height = 	$(".banner-portada").height();*/
+					var heigth = $(window).height();
+					
+					var heigth_2 = heigth/2;
+					
+					console.log("SIZE: "+heigth +"SIZE/2" +height_2);
+					$(".banner-portada").css("height", heigth_2);
+					$(".nosotrosprueba").css("height", heigth_2);
+				}
+				
+				$("#fullPage").fullpage({
+					sectionsColosr: ['whitesmoke','whitesmoke','#031c54','#cac212'],
+					anchors: ['section0', 'section1', 'section2', 'section3'],
+					menu: '#menu',
+					scrollingSpeed: 1000,
+					navigation: true,
+    navigationPosition: 'right',
+    navigationTooltips: ['Inicio', 'Nosotros', 'Ventajas', 'Contactenos']
+					
+					
+				});
+		});
+	</script>
+
+
+
+
+</body>
+</html>
